@@ -26,6 +26,7 @@ while type(X) != float:
 while type(N) != int:
     try:
         N = int(N)
+
     except ValueError:
         print("Условие не соблюдается")
         N = input("Введите число N")

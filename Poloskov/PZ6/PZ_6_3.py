@@ -24,7 +24,7 @@ y_coordinates = [1, 2, 3, 4, 5]
 
 max_point = point(x_coordinates, y_coordinates)
 
-if max_point != (0, 0):
+if max_point != (0, 0):25
     print("Наиболее удаленная точка во второй четверти:", max_point)
 else:
     print("В множестве нет точек во второй четверти.")
